@@ -1,0 +1,223 @@
+.links li a {
+    color: #40E0D0;
+}
+
+#getstarted a {
+    color: white;
+}
+
+body {
+  font-family: Gotica, sans-serif;
+  background-color: #000000;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  text-align: center; 
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.container {
+  border-radius: 5px;
+  background-color:#000000;
+  padding: 30px;
+}
+
+
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#000000;
+  padding: 30px;
+
+}
+
+.landing-page header .logo {
+  color: #ff9900;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page header .links li {
+  margin:0 150px;
+  color: #1b03a3;
+  cursor: pointer;
+  transition: .3s;
+}
+
+
+.landing-page .content .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: calc(100vh - 80px);
+  color: #40E0D0; 
+}
+
+.landing-page .content .info h1 {
+  text-align: center;
+  color: #0000b3;
+  font-size: 35px; 
+  margin-bottom: 50px;
+}
+.landing-page .content .info p {
+  text-align: center;
+  margin: 0;
+  line-height: 2.0;
+  font-size: 20px;
+  color: #40E0D0;  
+}
+.landing-page .content .info button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #cc7a00;
+}
+.landing-page .images-container  img {
+  width: 500px;
+  max-width: 150%;
+  margin: 0;
+  padding: 0;
+ height: auto;
+}
+.landing-page .images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-40%, -40%);
+  -ms-transform: translate(-40%, -40%);
+  white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+footer{
+  padding: 1rem 0;
+  margin-top: 1rem;
+  text-align: center;
+  bottom: 0; 
+  color: #ff9900;
+  font-size: 25px;
+}
+.rounded-social-buttons {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 6.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 3.25rem;
+  margin-bottom: 3.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-facebook-f, .fa-linkedin, .fa-instagram {
+  font-size: 35px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+html{
+  scroll-behavior: smooth;
+  }
